@@ -1,0 +1,60 @@
+
+.profileInfo{
+    padding:2px;
+    display: flex;
+    width: 100%;
+    height: 33px;
+    border-top: 1px solid #dddddd;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+}
+
+.profileSubheaderDiv{
+    display: flex;
+    width: 100%;
+    height: 40px;
+    border-bottom: 1px solid #dddddd;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.profileInfoText{
+    margin-bottom: 10px;
+    border-bottom: 1px solid black;
+}
+
+.currencyStyle{
+    font-size: 16px;
+    color: #073a31;
+}
+
+.textStyle{
+    color: #777777;
+}
+
+.textAreaStyle{
+    background-color: white;
+    border:none !important;
+    width: 100%;
+    padding-left: 7px;
+    padding-right: 7px;
+    color: #777777;
+    resize: vertical;
+}
+
+.textAreaStyle:focus{
+    border-color: #e77600;
+    box-shadow: 0 0 10px #e77600;
+    outline: 0 !important;
+    color: black;
+}
+
+.tabFormStyle{
+    display: block;
+    width: 100%;
+    padding:15px 15px 0px 15px !important;
+    overflow-x: hidden;
+}

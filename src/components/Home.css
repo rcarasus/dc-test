@@ -1,0 +1,203 @@
+.sidebar::-webkit-scrollbar {width: 7px;}
+.sidebar::-webkit-scrollbar-track {background: #f1f1f1; border-radius: 5px;}/* Track */
+.sidebar::-webkit-scrollbar-thumb {background: #888; border-radius: 5px;}/* Handle */
+
+.navbar{
+    margin: 0;
+    height: 60px;
+    background: white;
+    min-width: 1280px !important;
+}
+
+.navbar-brand{
+    display: flex;
+    background: #073a31 !important;
+    width: 210px;
+    height: 60px;
+    justify-content: center;
+}
+
+.navbar-nav > a{
+    text-decoration: none;
+    color: #031b1b!important;
+}
+
+.navbar-nav > a:hover{
+    text-decoration: none !important;
+}
+
+.nav-item:hover{
+    background-color: #f5f5f5;
+}
+.navbar-nav > div{
+    color: white;
+}
+
+.container{
+    padding-top: 80px;
+    background: #ecf0f5;
+    min-width: 1280px !important;
+    min-height: 1000px !important;
+}
+
+.sidebar {
+    width: 210px;
+    position: fixed;
+    top: 60px;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+    display: flex;
+    justify-content: flex-end;
+    overflow-x: hidden;
+    overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+    background-color: #031b1b;
+    /*border-right: 1px solid #eee;*/
+}   
+    @media (min-width: 768px) {
+    .main { padding-right: 40px; /* 180 + 40 */ }
+    }
+    
+.MenuSharpIcon{display:none;}
+.welcome{
+    font-size: 20px;
+    color:#031b1b !important;
+}
+
+.notifications,
+.avatarName{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    color:#031b1b;
+}
+
+
+.menuList{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    font-size: 15px;
+}
+
+.submenuList{
+    flex: 1; 
+    width: 100%;
+    justify-content: flex-end;
+    
+}
+.submenuListItemIcon {padding-left:40px;}
+.submenuListItemText{padding-left:10px;}
+
+.menuListSpacer{padding: 5px;}
+.menuListDivider{
+    height: 1px;
+    opacity: 0.3;
+    background: darkgray;
+}
+
+.menuListHeader{
+    color: white;
+    padding:20px 20px 5px 20px;
+}
+
+.menuListItem {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex:1;
+    margin: 0;
+    color: #b2c0be;
+    padding: 5px 0px 5px 0px;
+}
+
+.menuListItem:hover {
+    background-color: #073a31;
+    cursor: pointer;
+    color:#dea119;
+}
+.menuListItemIcon {padding-left:20px;}
+.menuListItemText{padding-left:10px;}
+.menuListItemMore{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+.menuListItemSupport{
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    flex: 1;
+}
+
+.sectionOne{
+    display: flex;
+    justify-content: space-between;
+    color: #031b1b;
+    font-size: 20px;
+    padding-bottom:20px;
+}
+
+.highlightCard{
+    display: flex;
+    width: 24%;
+    height: 80px;
+    border: 1px solid #dddddd;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+    background-color: white;
+}
+
+.highlightCardIcon{
+    display: flex;
+    width: 25%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    color: white !important;
+}
+
+.highlightCardTextDiv{
+    display: flex;
+    width: 75%;
+    height: 100%;
+}
+
+.highlightCardTextTitle{
+    display: block;
+    font-size: 13px;
+    color: black;
+    padding: 10px 0px 0px 10px;
+}
+
+.highlightCardTextContent{
+    display: block;
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    padding-left: 20px;
+    line-height: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.badgeDiv{
+    font-size: 8px;
+    padding-right: 25px;
+}
+
+.badgeDiv:hover{
+    cursor: pointer;
+}
+
+.progressBadgeDiv{
+    display:flex;
+    flex: 1;
+    width: 100%;
+    color:#031b1b;   
+    padding-left: 10px;
+}
+
+.highlightCard{
+    cursor: pointer;   
+}

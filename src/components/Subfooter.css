@@ -1,0 +1,21 @@
+.subfooterB__container{
+    width: 100%;
+    min-width:1280px;
+    background-color: smoke;
+}
+    
+.lowerSectionB__container{
+    display:inline-block;
+    width: 100%;
+    min-width:1280px;        
+    color: #000;   
+    text-align: center;     
+    font-size: 12px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.lowerSectionB__texts{font-size: 14px;}
+.footer_linkX,
+.footer_link{text-decoration: none;color:#073a31; font-weight: bolder;}
+.footer_link:hover{text-decoration: underline;color:#b9520d  !important}
+.footer_linkX:hover{text-decoration: underline;color:blue  !important}

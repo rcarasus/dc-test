@@ -1,0 +1,91 @@
+:before, :after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+ul.tree{
+    list-style: none;
+}
+
+.tree ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-left: 2em;
+    position: relative;
+}
+
+.tree ul li{
+    margin: 0;
+    margin-left: 5px;
+    padding: 1.5em 2em;
+    position: relative;
+}
+
+.tree ul::before{
+    content: "";
+    display: block;
+    width: 0;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin-left: 5px;
+    border-left: #aaa 2px solid;
+}
+
+.tree ul li:before {
+    content: "";
+    display: block;
+    width: 40px;
+    height: 0;
+    border-top: #aaa 2px solid;
+    margin-top: -1px;
+    position: absolute;
+    top: 3em;
+    left: 0;
+}
+
+.tree ul li:last-child:before {
+    background: #fff;
+    height: auto;
+    top: 3em;
+    bottom: 0;
+}
+
+.profile{
+    height:40px;
+    width: 40px;
+    margin-left: 0.1em;
+    cursor: pointer;
+}
+
+
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    margin-left: 5px;
+  }
+  
+.right {
+transform: rotate(-45deg);
+-webkit-transform: rotate(-45deg);
+}
+
+.left {
+transform: rotate(135deg);
+-webkit-transform: rotate(135deg);
+}
+
+.up {
+transform: rotate(-135deg);
+-webkit-transform: rotate(-135deg);
+}
+
+.down {
+transform: rotate(45deg);
+-webkit-transform: rotate(45deg);
+}

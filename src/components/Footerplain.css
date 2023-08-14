@@ -1,0 +1,55 @@
+.footerplain{
+    top:0; left:0;  
+    display: flex;
+    width: 100vw;
+    max-width: 100%;    
+    background-color: white;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer__container{
+    text-align: center;
+    margin-top:39px;
+    width: 95%;
+    background-image: -webkit-gradient(radial, 50% 0%, 0, 50% 0%, 116, color-stop(0%, #f8f8f8), color-stop(100%, rgba(255, 255, 255, 0)));
+    background-image: -webkit-radial-gradient(center top, farthest-side, #f8f8f8 0%, rgba(255, 255, 255, 0) 100%);
+    background-image: -moz-radial-gradient(center top, farthest-side, #f8f8f8 0%, rgba(255, 255, 255, 0) 100%);
+    background-image: -o-radial-gradient(center top, farthest-side, #f8f8f8 0%, rgba(255, 255, 255, 0) 100%);
+    background-image: radial-gradient(farthest-side at center top, #f8f8f8 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+hr {
+    height: 2px;
+    background: -webkit-gradient(linear, 0 0, 100% 0, from(rgba(0, 0, 0, 0)), color-stop(0.5, #333333), to(rgba(0, 0, 0, 0)));
+    background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0), #333333, rgba(0, 0, 0, 0));
+    background: -moz-linear-gradient(left, rgba(0, 0, 0, 0), #333333, rgba(0, 0, 0, 0));
+    background: -o-linear-gradient(left, rgba(0, 0, 0, 0), #333333, rgba(0, 0, 0, 0));
+    background: linear-gradient(padding-left, rgba(0, 0, 0, 0), #333333, rgba(0, 0, 0, 0));
+    border: 0;
+  }
+  hr:after {
+    display: block;
+    content: '';
+    height: 30px;
+    background-image: -webkit-gradient(radial, 50% 0%, 0, 50% 0%, 116, color-stop(0%, #edeef1), color-stop(100%, rgba(255, 255, 255, 0)));
+    background-image: -webkit-radial-gradient(center top, farthest-side, #edeef1 0%, rgba(255, 255, 255, 0) 100%);
+    background-image: -moz-radial-gradient(center top, farthest-side, #edeef1 0%, rgba(255, 255, 255, 0) 100%);
+    background-image: -o-radial-gradient(center top, farthest-side, #edeef1 0%, rgba(255, 255, 255, 0) 100%);
+    background-image: radial-gradient(farthest-side at center top, #dadada 0%, rgba(255, 255, 255, 0) 100%);
+  }
+
+  .footer_text{
+      margin-top: -29px;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+  }
+
+    .footer__line1 {margin: 49px 0px 13px 0px;}
+    .footer__line1 a {padding: 13px;font-size:11px;}
+    .footer__line1 a:hover {color: #b9520d;}
+    .footer__line2 {margin: 0px 0px 13px 0px;}
+    .footer__line2 {font-size: 11px;color: #333333;}
+    .footer__line2 a {font-weight: bold;}
+    .footer__line2 a:hover {color: #0d6851;}
